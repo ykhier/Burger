@@ -87,3 +87,10 @@ button {
     button:hover {
         background-color: #0056b3;
     }
+/* Media query for screens smaller than 600px (typical mobile screens) */
+@media screen and (max-width: 600px) {
+    button {
+        padding: 15px 20px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
